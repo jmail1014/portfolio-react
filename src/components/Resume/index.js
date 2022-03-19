@@ -1,5 +1,7 @@
 import React from "react";
 
-function Resume() {}
+function Resume() {
+    
+}
 
 export default Resume;

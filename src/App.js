@@ -1,21 +1,29 @@
 import React from "react";
+import { ReactDOM } from "react";
+import { Router, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Project from "./components/Project";
-import Footer from "./components/Footer";
+import {
+  About,
+  Contact,
+  // Footer,
+  // Header,
+  // Modal,
+  Nav,
+  // Project,
+  // Resume,
+} from "./components";
 
 function App() {
-  return (
-    <div className="">
-      <Header>
-        <Nav></Nav>
-      </Header>
-      <main>
-        <Project></Project>
-      </main>
-      <Footer></Footer>
-    </div>
+  ReactDOM.render(
+    <Router>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Contact />} />
+      </Routes>
+    </Router>,
+    document.getElementById("root")
   );
 }
 
