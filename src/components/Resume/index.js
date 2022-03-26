@@ -3,9 +3,13 @@ import React from "react";
 function Resume() {
   return (
     <div className="resume">
-      <div class="container">
+      <div className="container">
         <p>
-          <a href="https://docs.google.com/document/d/1c-RclKso20UFO4FmsljYcGGYUuGIAgxt46P8tlJ5MDw/edit?usp=sharing">
+          <a
+            href="https://docs.google.com/document/d/1c-RclKso20UFO4FmsljYcGGYUuGIAgxt46P8tlJ5MDw/edit?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             Resume Here
           </a>
         </p>

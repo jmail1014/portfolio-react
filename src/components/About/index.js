@@ -3,9 +3,9 @@ import React from "react";
 function About() {
   return (
     <div className="about">
-      <div class="container">
+      <div className="container">
         <h1>About me</h1>
-        <img class="profile-pic" src={require("../../assets/img/profile-pic.png")} alt="profile-pic" />
+        <img className="profile-pic" src={require("../../assets/img/profile-pic.png")} alt="profile-pic" />
         <p>Hi! My name is Jessica.</p>
         <p>
           Front-end Web Developer with 15 years’ experience in the beauty and

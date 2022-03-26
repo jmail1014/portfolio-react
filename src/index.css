@@ -1,77 +1,115 @@
+li {
+  list-style: none;
+}
+
+/* Nav */
 .navigation {
   background-image: url("./assets/img/hero-img\ \(1\).png");
   width: 100%;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
+/* end of Nav */
 
+/* About */
 .profile-pic {
   width: 100%;
   max-width: 250px;
   height: auto;
 }
+/* end of About */
 
-@media screen and (max-width: 980px) {}
+/* Portfolio */
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+/* end of Portfolio */
 
-@media screen and (max-width: 817px) {
-	header div {
-		position: relative;
-		width: 110%;
-	}
+/* Contact form */
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 250px;
+  text-align: right;
+}
+input {
+  display: inline-block;
+}
+/* end of Contact form */
 
-	header div h2 {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-	}
-
-	h2 {
-		font-size: 1.5rem;
-	}
-
-	nav ul li span {
-		font-size: 0.75em;
-	}
-
-	.mobile-header {
-		width: 110%;
-	}
-
-	.mobile-row {
-		display: block;
-		margin: 0 100px 0 auto;
-	}
-
-	.mobile-view {
-		display: inline;
-		text-align: end;
-	}
-
-	.photo {
-		width: auto;
-		height: auto;
-		max-width: 500px;
-		max-height: 300px;
-		padding: 50px;
-	}
-
-	input {
-		width: 350px;
-	}
-
-	textarea {
-		width: 350px;
-		height: 120px;
-		border: 3px solid #cccccc;
-		padding: 5px;
-	}
-
-	ol {
-		font-size: 0.75rem;
-	}
+/* Footer */
+.social-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-@media screen and (max-width: 768px) {}
+.social.icon {
+  padding: 20px;
+}
+/* end of Footer */
 
-@media screen and (max-width: 575px) {}
+/* responsiveness */
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 817px) {
+  header div {
+    position: relative;
+    width: 110%;
+  }
+
+  header div h2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  nav ul li span {
+    font-size: 0.75em;
+  }
+
+  .mobile-header {
+    width: 110%;
+  }
+
+  .mobile-row {
+    display: block;
+    margin: 0 100px 0 auto;
+  }
+
+  .mobile-view {
+    display: inline;
+    text-align: end;
+  }
+
+  input {
+    width: 350px;
+  }
+
+  textarea {
+    width: 350px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+  }
+
+  ol {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
+}
