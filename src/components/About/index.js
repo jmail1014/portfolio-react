@@ -5,7 +5,8 @@ function About() {
     <div className="about">
       <div class="container">
         <h1>About me</h1>
-        <img src="./assets/img/profile-pic.png" alt="" />
+        <img class="profile-pic" src={require("../../assets/img/profile-pic.png")} alt="profile-pic" />
+        <p>Hi! My name is Jessica.</p>
         <p>
           Front-end Web Developer with 15 years’ experience in the beauty and
           wellness industry. In my work as an aesthetician I was trained to see

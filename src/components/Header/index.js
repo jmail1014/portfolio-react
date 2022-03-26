@@ -1,11 +1,14 @@
 import React from "react";
+import Nav from "../Nav";
 
 function Header() {
-    return (
-        <section>
-            <h1>Jessica Long | Front End Web Developer</h1>
-        </section>
-    );
+  return (
+    <header>
+        <div>
+            <Nav/>
+        </div>
+    </header>
+  );
 }
 
 export default Header;

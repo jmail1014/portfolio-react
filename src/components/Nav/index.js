@@ -7,13 +7,13 @@ function Nav() {
       <nav className="navbar navbar-expand navbar-dark bg-dark">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
-            Jessica Long | Front End Web Developer
+            Jessica Long | Web Developer
           </NavLink>
           <div>
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                  About me
+                  About
                 </NavLink>
               </li>
               <li className="nav-item">
