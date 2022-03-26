@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import Button from "react-bootstrap/Button";
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -76,9 +77,14 @@ function Contact() {
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
-          <button date-testid="button" type="submit">
+          <Button
+            variant="secondary"
+            size="lg"
+            date-testid="button"
+            type="submit"
+          >
             Submit
-          </button>
+          </Button>
         </form>
       </div>
     </div>
