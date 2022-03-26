@@ -40,6 +40,10 @@ label {
 input {
   display: inline-block;
 }
+button {
+  display: inline-block;
+  
+}
 /* end of Contact form */
 
 /* Footer */
