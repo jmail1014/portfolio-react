@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.edd292ba.css",
-    "main.js": "/portfolio-react/static/js/main.50845095.js",
+    "main.css": "/portfolio-react/static/css/main.ec0c3f4c.css",
+    "main.js": "/portfolio-react/static/js/main.007d0e6a.js",
     "static/js/787.aeca62f9.chunk.js": "/portfolio-react/static/js/787.aeca62f9.chunk.js",
     "static/media/food-drink-project.png": "/portfolio-react/static/media/food-drink-project.f2dac9b776058927de00.png",
     "static/media/hero-img (1).png": "/portfolio-react/static/media/hero-img (1).b1f10e202f56a8c5b586.png",
@@ -10,12 +10,12 @@
     "static/media/portfolio-project.png": "/portfolio-react/static/media/portfolio-project.c88a63b3e1e32e0e0ba4.png",
     "static/media/case-tracker-project.png": "/portfolio-react/static/media/case-tracker-project.5c51970dcf5625394bf5.png",
     "index.html": "/portfolio-react/index.html",
-    "main.edd292ba.css.map": "/portfolio-react/static/css/main.edd292ba.css.map",
-    "main.50845095.js.map": "/portfolio-react/static/js/main.50845095.js.map",
+    "main.ec0c3f4c.css.map": "/portfolio-react/static/css/main.ec0c3f4c.css.map",
+    "main.007d0e6a.js.map": "/portfolio-react/static/js/main.007d0e6a.js.map",
     "787.aeca62f9.chunk.js.map": "/portfolio-react/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edd292ba.css",
-    "static/js/main.50845095.js"
+    "static/css/main.ec0c3f4c.css",
+    "static/js/main.007d0e6a.js"
   ]
 }
