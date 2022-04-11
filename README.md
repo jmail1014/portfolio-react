@@ -1,6 +1,6 @@
 # Portfolio - React
 
-This is a single page portfolio application made with React. It displays an about me, portfolio, contact and resume section made with React reusable components. It utilizes props to pass child components and Hooks to manage state in functional components.
+This is a single page portfolio application made with React. It displays an About me, Portfolio, Contact and Resume section made with React reusable components. It utilizes props to pass child components and Hooks to manage state in functional components.
 
 ## Technologies used: 
 - React

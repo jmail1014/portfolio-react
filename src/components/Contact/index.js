@@ -44,6 +44,7 @@ function Contact() {
     <div className="contact">
       <div className="container">
         <h1>Contact me</h1>
+        <a href="mailto: j.mail@gmail.com">Email Me Here</a>
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
