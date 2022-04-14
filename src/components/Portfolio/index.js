@@ -20,11 +20,11 @@ function Portfolio() {
       deployed: "https://fathomless-cliffs-14331.herokuapp.com/",
     },
     {
-      name: "Portfolio",
+      name: "Habit Social",
       description:
-        "A professional portfolio application using HTML and advanced CSS that showcases examples of web development work. The application is mobile responsive using flexbox and media queries with emphasis on the user interface.",
-      image: "portfolio-project.png",
-      technologies: ["HTML", "CSS", "JavaScript"],
+        "A habit tracker built with the MERN stack that connects people by encouraging each other's goals.",
+      image: "habit-social-login.png",
+      technologies: ["MERN", "GraphQL", "Jsonwebtoken, Heroku"],
       github: "https://github.com/jmail1014/portfolio",
       deployed: "https://jmail1014.github.io/portfolio/",
     },
